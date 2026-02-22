@@ -3,29 +3,45 @@
     src: url(font/RoclinePersonalUseOnly-Regular.ttf);
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ff5e00;
+  padding: 19px 70px;
+}
+
 h1{
-    font-family: 'Rocline';
-    font-size: 50px;
-    color: rgb(72, 61, 61);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 50px;
-
-
+  font-family: 'Rocline';
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  margin: 0px;
+   
 }
-a{
+
+.navbar a{
   font-size: 22px;
-    margin-left: 30px;
-    text-decoration: none;
-    color: rgb(255, 166, 0);
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  margin-right: 30px;
+  
+  
+}
 
+h2{
+  font-size: 30px;
+  font-family:'Rocline';
+  font-weight: bold;
+  color: rgb(0, 0, 0);
 }
-h2{font-size: 30px;
-}
+
 p {
-  line-height: 1.15; 
+  line-height: 1.5;
   font-size: 20px;
 }
-body{background-color: rgba(255, 255, 255, 0.687);  
+
+body{
+  margin: 0;
+  background-color: rgba(244, 244, 244, 0.687);  
 }
