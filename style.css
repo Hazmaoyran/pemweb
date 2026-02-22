@@ -1,0 +1,31 @@
+@font-face {
+    font-family: 'Rocline';
+    src: url(font/RoclinePersonalUseOnly-Regular.ttf);
+}
+
+h1{
+    font-family: 'Rocline';
+    font-size: 50px;
+    color: rgb(72, 61, 61);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+
+
+}
+a{
+  font-size: 22px;
+    margin-left: 30px;
+    text-decoration: none;
+    color: rgb(255, 166, 0);
+
+}
+h2{font-size: 30px;
+}
+p {
+  line-height: 1.15; 
+  font-size: 20px;
+}
+body{background-color: rgba(255, 255, 255, 0.687);  
+}
