@@ -1,47 +1,112 @@
+
 @font-face {
     font-family: 'Rocline';
-    src: url(font/RoclinePersonalUseOnly-Regular.ttf);
+    src: url('font/RoclinePersonalUseOnly-Regular.ttf');
 }
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    margin: 0;
+    background-color: rgba(235, 235, 235, 0.687);
+    font-family: Arial, sans-serif;
+    transition: 0.3s;
+}
+
 
 .header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #ff5e00;
-  padding: 19px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f06e0a;
+    padding: 19px 70px;
 }
 
-h1{
-  font-family: 'Rocline';
-  font-size: 50px;
-  color: rgb(255, 255, 255);
-  font-weight: bold;
-  margin: 0px;
-   
+.logo {
+    font-family: 'Rocline';
+    font-size: 50px;
+    color: white;
+    font-weight: bold;
 }
 
-.navbar a{
-  font-size: 22px;
-  text-decoration: none;
-  color: rgb(0, 0, 0);
-  margin-right: 30px;
-  
-  
+
+.navbar a {
+    font-size: 22px;
+    text-decoration: none;
+    color: white;
+    margin-right: 30px;
+    font-weight: bold;
+    font-family: 'Rocline';
 }
 
-h2{
-  font-size: 30px;
-  font-family:'Rocline';
-  font-weight: bold;
-  color: rgb(0, 0, 0);
+.navbar a:hover {
+    opacity: 0.8;
+}
+
+
+.Beranda {
+    text-align: center;
+    padding: 80px 20px;
+    background: #222;
+    color: white;
+}
+
+.Beranda h2 {
+    font-size: 40px;
+    font-family: 'Rocline';
+}
+
+.Beranda span {
+    color: #f06e0a;
+}
+
+.btn-primary {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #f06e0a;
+    color: rgb(255, 255, 255);
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+.Tentang {
+    padding: 60px 70px;
+}
+
+h2 {
+    font-size: 30px;
+    font-family: 'Rocline';
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
 }
 
 p {
-  line-height: 1.5;
-  font-size: 20px;
+    line-height: 1.5;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
 }
 
-body{
-  margin: 0;
-  background-color: rgba(244, 244, 244, 0.687);  
+
+
+  
+
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #f06e0a;
+    color: white;
+    font-family: 'Rocline';
 }
+
